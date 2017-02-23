@@ -23,12 +23,12 @@ considerations as integral to the system rather than as bolted-on afterthoughts.
 
 ## How the proposal addresses the concerns
 
-* [Content-addressible storage] enabling.. 
-  * [Composite document storage]()
-  * [Chained historic data storage]() aka "Version Control"
-* [Public key encryption]()
-* [Blockchain Notarization]()
-* [NodeJS]() and [Electron]() for application and user interface
+* Content-addressible storage enabling.. 
+  * [Composite document storage](composite-data-storage.md)
+  * Chained historic data storage aka "Version Control"
+* [Public key encryption]
+* [Blockchain Notarization]
+* [NodeJS](https://nodejs.org) and [Electron](http://electron.atom.io) for application and user interface
 
 ---
 
