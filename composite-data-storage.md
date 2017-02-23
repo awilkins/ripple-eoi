@@ -25,11 +25,11 @@ Hash functions are deterministic, which means that given the same inputs, they w
 
 Because even a small change in the input to a hash function produces a large change in it's output, you can be sure that a particular piece of data has not been tampered with or corrupted if it matches it's identifier.
 
-You can combine this with a [[VersionControlledDataModel|version controlled data model]] and be assured that not only is a particular record intact, but that all records preceding it are as well.
+You can combine this with a [version controlled data model] and be assured that not only is a particular record intact, but that all records preceding it are as well.
 
 #### Redundancy Reduction
 
-By employing a [[Composite]] pattern for your records, and using a CAID to identify components, you can reduce redundancy. Many record components will be identical, and thus have identical CAID values, reducing the entire record to the size of your chosen CAID form, regardless of it's actual size. Many components will repeatedly occur from day 1, many more will naturally repeat over time, e.g.
+By employing a [Composite] pattern for your records, and using a CAID to identify components, you can reduce redundancy. Many record components will be identical, and thus have identical CAID values, reducing the entire record to the size of your chosen CAID form, regardless of it's actual size. Many components will repeatedly occur from day 1, many more will naturally repeat over time, e.g.
 
 * Blood pressure measurements
 * "Normal range" values on test results
